@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 5.3</title>
+    <style>
+        li span {
+            cursor: pointer
+        }
+        ul {
+            padding-left: 30px !important
+        }
+        .red {
+            font-weight: bold;
+            color: red
+        }
+        .gray {
+            font-weight: bold;
+            color: gray
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/struct.js"></script>
+    <script src="script/three.js"></script>
+</head>
+<body>
+    <h3>Задание 5.3</h3>
+    С помощью JQ создать страницу наподобие выше.<br>
+    Используя jquery напишите код, который для каждого элемента &lt;li&gt; выведет:.<br>
+    <ul>
+        <li>Текст непосредственно в нём (без подразделов)</li>
+        <li>Количество вложенных в него элементов &lt;li&gt; – всех, с учётом вложенных</li>
+    </ul>
+    По нажатию на текст &lt;ul&gt; должно анимировано исчезать, при повторном нажатии анимировано появляется.
+    <div id="root"></div>
+</body>
+</html>
